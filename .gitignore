@@ -1,0 +1,25 @@
+# 1. Ignore everything by default
+*
+
+# 2. Allow the git config files
+!.gitignore
+!.gitattributes
+
+# 3. Allow the Content folder structure (but not its general files)
+!Content/
+Content/*
+
+# 4. Whitelist your specific folders
+!Content/LEGO_Grid_Placement/
+!Content/LEGO_Grid_Placement/**
+
+!Content/LEGOQuests/
+!Content/LEGOQuests/**
+
+!Content/LEGOUtilities/
+!Content/LEGOUtilities/**
+
+# 5. Whitelist the specific UI file
+!Content/UI/
+Content/UI/*
+!Content/UI/lego_stud_counter_device.verse

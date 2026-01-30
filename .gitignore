@@ -5,21 +5,17 @@
 !.gitignore
 !.gitattributes
 
-# 3. Allow the Content folder structure (but not its general files)
-!Content/
-Content/*
+# 3. Allow your specific folders
+!LEGO_Grid_Placement/
+!LEGO_Grid_Placement/**
 
-# 4. Whitelist your specific folders
-!Content/LEGO_Grid_Placement/
-!Content/LEGO_Grid_Placement/**
+!LEGOQuests/
+!LEGOQuests/**
 
-!Content/LEGOQuests/
-!Content/LEGOQuests/**
+!LEGOUtilities/
+!LEGOUtilities/**
 
-!Content/LEGOUtilities/
-!Content/LEGOUtilities/**
-
-# 5. Whitelist the specific UI file
-!Content/UI/
-Content/UI/*
-!Content/UI/lego_stud_counter_device.verse
+# 4. Allow the UI folder structure and the specific fileasd
+!UI/
+UI/*
+!UI/lego_stud_counter_device.verse
